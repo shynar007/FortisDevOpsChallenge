@@ -71,7 +71,7 @@ elb_sg: Allows HTTPS (port 443) traffic.
 webapp_sg: Allows traffic from the ELB to the web app server on port 8080.
 nat_sg: Allows outbound traffic.
 
-Why We Stopped at terraform validate
+Why I Stopped at terraform validate
 
 Due to the lack of AWS credentials, I stopped at validating the Terraform configuration. The configuration is correct and ready for deployment if credentials are provided.
 
